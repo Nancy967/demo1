@@ -3,17 +3,27 @@ package com.example.demo;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RequestMapping("/detail")
+import java.util.ArrayList;
+import java.util.List;
+
+//@RequestMapping("/detail")
 @RestController
 public class MyCotroller {
 
     @RequestMapping("/product")
-    public String product(){
-        return "第一個是蘋果";
+    public Store product(){
+        Store store = new Store();
+        List<String> storeList = new ArrayList<>();
+        storeList.add("蘋果");
+        storeList.add("橘子");
+        store.setProductList(storeList);
+        return store;
     }
 
     @RequestMapping("/user")
-    public String user(){
-        return "名子是:Nancy";
+    public Student user(){
+        Student student = new Student();
+        student.setName("Nancy");
+        return student;
     }
 }
