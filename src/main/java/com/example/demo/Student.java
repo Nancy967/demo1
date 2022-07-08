@@ -1,4 +1,4 @@
-package com.example.demo;
+/*package com.example.demo;
 
 import java.util.List;
 
@@ -22,10 +22,10 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
-/*Double score;
+*//*Double score;
     boolean graduated;
     Integer age;
     List<String> courseList;
     Pet pet;
-    List<Pet> petList;*/
-}
+    List<Pet> petList;*//*
+}*/
