@@ -1,3 +1,4 @@
+/*
 package com.example.demo;
 
 import org.springframework.web.bind.annotation.*;
@@ -8,6 +9,7 @@ import java.util.List;
 //@RequestMapping("/detail")
 @RestController
 public class MyCotroller {
+*/
 /*
     @RequestMapping("/product")
     public Store product(){
@@ -24,7 +26,8 @@ public class MyCotroller {
         Student student = new Student();
         student.setName("Nancy");
         return student;
-    }*/
+    }*//*
+
 
     @RequestMapping("/test1")
     public String test1(@RequestParam(defaultValue = "999") Integer id,
@@ -55,3 +58,4 @@ public class MyCotroller {
         return "Hello test4";
     }
 }
+*/
