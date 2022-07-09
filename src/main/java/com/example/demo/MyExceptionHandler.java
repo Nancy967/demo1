@@ -1,3 +1,4 @@
+/*
 package com.example.demo;
 
 import org.springframework.http.HttpStatus;
@@ -14,9 +15,12 @@ public class MyExceptionHandler {
                 .body("RuntimeException:" + exception.getMessage());
     }
 
-    /*@ExceptionHandler(IllegalArgumentException.class)
+    */
+/*@ExceptionHandler(IllegalArgumentException.class)
     public ResponseEntity<String> handle(IllegalArgumentException exception){
         return ResponseEntity.status(HttpStatus.BAD_REQUEST)
                 .body("IllegalArgumentException:" + exception.getMessage());
-    }*/
+    }*//*
+
 }
+*/

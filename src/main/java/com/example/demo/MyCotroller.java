@@ -13,12 +13,16 @@ public class MyCotroller {
 
     @RequestMapping("/test1")
     public String test1(){
-        throw new RuntimeException("test1 error");
+//        throw new RuntimeException("test1 error");
+        System.out.println("test1可愛");
+        return "Hello test1";
     }
 
     @RequestMapping("/test2")
     public String test2(){
-        throw new IllegalArgumentException("test2 error");
+//        throw new IllegalArgumentException("test2 error");
+        System.out.println("test2可愛");
+        return "Hello test2";
     }
 
     /*@RequestMapping("/test")
