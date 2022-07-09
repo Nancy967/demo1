@@ -1,6 +1,7 @@
-/*
 package com.example.demo;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -9,9 +10,13 @@ import java.util.List;
 //@RequestMapping("/detail")
 @RestController
 public class MyCotroller {
-*/
-/*
-    @RequestMapping("/product")
+
+    @RequestMapping("/test")
+    public ResponseEntity<String> test(){
+        return ResponseEntity.status(HttpStatus.ACCEPTED).body("Hello world");
+    }
+
+/*    @RequestMapping("/product")
     public Store product(){
         Store store = new Store();
         List<String> storeList = new ArrayList<>();
@@ -26,7 +31,7 @@ public class MyCotroller {
         Student student = new Student();
         student.setName("Nancy");
         return student;
-    }*//*
+    }
 
 
     @RequestMapping("/test1")
@@ -56,6 +61,5 @@ public class MyCotroller {
         System.out.println("path id:" + id);
         System.out.println("path name:" + name);
         return "Hello test4";
-    }
+    }*/
 }
-*/

@@ -1,4 +1,4 @@
-package com.example.demo;
+/*package com.example.demo;
 
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -31,4 +31,4 @@ public class StudentController {
     public String delete(@PathVariable Integer studentId){
         return "資料庫 delete";
     }
-}
+}*/

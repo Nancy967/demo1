@@ -1,4 +1,4 @@
-package com.example.demo;
+/*package com.example.demo;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -28,10 +28,10 @@ public class Student {
     }
 
 
-    /*Double score;
+    *//*Double score;
     boolean graduated;
     Integer age;
     List<String> courseList;
     Pet pet;
-    List<Pet> petList;*/
-}
+    List<Pet> petList;*//*
+}*/
